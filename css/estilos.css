@@ -1,0 +1,73 @@
+html,
+body,
+.site-wrapper {
+  height: 100%;
+}
+body {
+  font-family: "Rubik", sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.75;
+  position: relative;
+  visibility: visible;
+  overflow-x: hidden;
+  color: #696969;
+  background-color: #FFFFFF;
+}
+.texto-blanco{
+  color: #fff;
+}
+
+
+.bg-primary2 {
+  background-color: #72A499 !important;
+}
+.topbar-section {
+  font-size: 16px;
+  position: relative;
+  z-index: 101;
+}
+.section,
+.main-wrapper {
+  float: left;
+  width: 100%;
+}
+
+/* Topbar Menu */
+.topbar-menu ul {
+  font-weight: 400;
+  margin: 0;
+  list-style: none;
+}
+.topbar-menu ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.topbar-menu ul li::after {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 1px;
+  height: 15px;
+  content: "";
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: #D8D8D8;
+}
+.topbar-menu ul li:last-child {
+  margin-right: 0;
+  padding-right: 0;
+}
+.topbar-menu ul li:last-child::after {
+  display: none;
+}
+.topbar-menu ul li a i {
+  font-size: 14px;
+  margin-right: 10px;
+}
+.header-section {
+  position: relative;
+  z-index: 98;
+}

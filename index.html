@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Terra Dulce</title>
+	<meta name="robots" content="noindex, follow" />
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="img/icon.ico">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="fontawesome-pro-6.5.1/css/all.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- Topbar Section Start -->
+	<div class="topbar-section section bg-primary2">
+		<div class="container">
+			<div class="row justify-content-between align-items-center">
+				<div class="col-auto d-none d-md-block">
+					<div class="topbar-menu text-white">
+						<ul>
+							<li>
+								<i class="fa fa-clock"></i> 8:00 am - 9:00 pm
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Topbar Section End -->
+	<!-- Header Section Start -->
+	<div class="header-section section bg-white d-none d-xl-block">
+		<div class="container">
+			<div class="row row-cols-lg-3 align-items-center">
+				<div class="col"></div>
+				<div class="col" align="center">
+					<div class="header-logo justify-content-center">
+						<a href="index.html">
+							<img src="img/logo.png" alt="terra dulce logo" width="200px">
+						</a>
+					</div>
+				</div>
+				<div class="col"></div>
+			</div>
+		</div>
+		<!-- Site Menu Section Start PRINCIPAL -->
+		<div class="site-menu-section section">
+			<div class="container">
+				<nav class="site-main-menu justify-content-center">
+					<ul>
+						<li>
+							<a href="index.html">
+								<span class="menu-text">Inicio</span>
+							</a>
+						</li>
+						<li >
+							<a href="nosotros.html">
+								<span class="menu-text">Nosotros</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<!-- Site Menu Section End -->
+	</div>
+	<!-- Header Section End -->
+	<!-- Contenido -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+						<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="img/img1.jpg" class="d-block w-100">
+						</div>
+						<div class="carousel-item">
+							<img src="img/img2.jpg" class="d-block w-100">
+						</div>
+						<div class="carousel-item">
+							<img src="img/img3.jpg" class="d-block w-100">
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Anterior</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Siguiente</span>
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="row"><div class="col-md-12"><p>&nbsp;</p></div></div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section section-padding">
+					<div class="container">
+						<div class="section-title text-center">
+							<h3 class="sub-title">Compra ahora</h3>
+							<h2 class="title">Nuestros mejores productos</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="products row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1">
+            <div class="col">
+                <div class="product">
+                    <div class="product-thumb">
+                        <a href="#" class="image">
+                            <span class="product-badges">
+
+                            </span>
+                            <img src="img/dulces/veromix.jpg" alt="Product Image">
+                            <img class="image-hover" src="img/dulces/veromix_2.jpg" alt="Product Image">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h6 class="title">
+                        	<a href="#">Paletas Vero Mix Banda Fuego</a>
+                        </h6>
+                        <span class="price">
+                        </span>
+                        <span class="new">$3.50 c/u</span>
+                        </span>
+                        <div class="product-buttons">
+                            <a href="{{route('producto.detalle',$producto->id)}}" class="product-button hintT-top" data-hint="Detalles"><i class="fal fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+	</div>
+	<!-- ./Contenido -->
+
+	<div class="footer1-section section section-padding">
+		<div class="container">
+			<div class="row text-center row-cols-1">
+				<div class="footer1-logo col text-center">
+					<img src="img/logo.png" alt="terra dulce logo" width="200px">
+				</div>
+				<div class="footer1-menu col">
+					<ul class="widget-menu justify-content-center">
+						<li><a href="nosotros.html">Nosotros</a></li>
+					</ul>
+				</div>
+				<div class="footer1-social col">
+					<ul class="widget-social justify-content-center">
+						<li class="hintT-top" data-hint="Facebook">
+							<a href="https://www.facebook.com/terra.dulces" target="_blank">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li class="hintT-top" data-hint="Instagram">
+							<a href="https://www.instagram.com/dulcesterra" target="_blank">
+								<i class="fab fa-instagram"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer1-copyright col">
+					<p class="copyright">
+						&copy; 2024 Terra Dulce. Derechos Reservados | <strong><a href="tel:+525631457732">(+52) 56 3145 7732</a></strong> | <a href="mailto:zenaidojoel@gmail.com">zenaidojoel@gmail.com</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery.slim.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
